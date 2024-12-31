@@ -1,0 +1,48 @@
+h1 {
+    text-align:center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recipe {
+    margin: 0.5rem;
+    border: 1px solid;
+    padding: 3rem;
+    transition: 0.5s ease-out ;
+    border-radius: 2px;
+}
+
+.recipe:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+.recipe-wrapper {
+    border: 1px solid;
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+img  {
+    width:20vw;
+    height:30vh;
+}
+
+body {
+    background: url('./img/pic.jpg') no-repeat;
+    background-size: cover;
+    
+}
+p {
+    font-size: medium;
+}
